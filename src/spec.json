@@ -1,0 +1,257 @@
+{
+  "title": "Agenda eventi culturali della biblioteca",
+  "description": "Prototipo navigabile per consultare il calendario degli eventi, gestire le iscrizioni e monitorare i posti disponibili. Tutti i nomi e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi culturali e delle iscrizioni registrate.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "146"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "38"
+        },
+        {
+          "label": "Eventi esauriti",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Sede",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Racconti di Nubi",
+          "Letture",
+          "12/06/2026",
+          "Sala Lumo",
+          "8"
+        ],
+        [
+          "Mappe immaginarie",
+          "Laboratorio",
+          "14/06/2026",
+          "Spazio Vela",
+          "4"
+        ],
+        [
+          "Suoni al tramonto",
+          "Concerto",
+          "16/06/2026",
+          "Cortile Nubi",
+          "0"
+        ],
+        [
+          "Pagine in viaggio",
+          "Incontro",
+          "18/06/2026",
+          "Sala Lumo",
+          "12"
+        ],
+        [
+          "Colori in movimento",
+          "Laboratorio",
+          "20/06/2026",
+          "Spazio Vela",
+          "6"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra il calendario degli eventi della biblioteca.",
+      "metrics": [
+        {
+          "label": "Eventi pubblicati",
+          "value": "12"
+        },
+        {
+          "label": "Prossimo evento",
+          "value": "12/06/2026"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Racconti di Nubi",
+          "Letture",
+          "12/06/2026",
+          "Sala Lumo",
+          "24",
+          "16",
+          "8"
+        ],
+        [
+          "Mappe immaginarie",
+          "Laboratorio",
+          "14/06/2026",
+          "Spazio Vela",
+          "18",
+          "14",
+          "4"
+        ],
+        [
+          "Suoni al tramonto",
+          "Concerto",
+          "16/06/2026",
+          "Cortile Nubi",
+          "30",
+          "30",
+          "0"
+        ],
+        [
+          "Pagine in viaggio",
+          "Incontro",
+          "18/06/2026",
+          "Sala Lumo",
+          "20",
+          "8",
+          "12"
+        ],
+        [
+          "Colori in movimento",
+          "Laboratorio",
+          "20/06/2026",
+          "Spazio Vela",
+          "16",
+          "10",
+          "6"
+        ],
+        [
+          "Storie intrecciate",
+          "Letture",
+          "22/06/2026",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Piccolo atelier",
+          "Laboratorio",
+          "24/06/2026",
+          "Spazio Vela",
+          "14",
+          "7",
+          "7"
+        ],
+        [
+          "Voci di Vela",
+          "Incontro",
+          "26/06/2026",
+          "Cortile Nubi",
+          "28",
+          "21",
+          "7"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Sede",
+        "Capienza"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Registra partecipazioni e controlla lo stato delle iscrizioni agli eventi.",
+      "metrics": [
+        {
+          "label": "Iscrizioni confermate",
+          "value": "146"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Numero posti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Ada Miralume",
+          "Racconti di Nubi",
+          "12/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Timo Velarco",
+          "Mappe immaginarie",
+          "14/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Nira Solenubi",
+          "Suoni al tramonto",
+          "16/06/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Eli Ventaluce",
+          "Pagine in viaggio",
+          "18/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Mira Luminara",
+          "Colori in movimento",
+          "20/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Orin Nubicanto",
+          "Storie intrecciate",
+          "22/06/2026",
+          "1",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Numero posti",
+        "Stato"
+      ]
+    }
+  ]
+}
